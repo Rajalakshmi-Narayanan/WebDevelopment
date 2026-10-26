@@ -23,4 +23,3 @@ def home():
             message = f"Hello {username}, Welcome!"
 
     return render_template("index.html", message = message)
-    
